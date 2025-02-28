@@ -4,9 +4,12 @@ description = "another signal implementation"
 authors = ["glaphyre"]
 repository = "https://github.com/glaphyre/shingo"
 license = "MIT"
+includes = ["LICENSE", "README.md", "pesde.toml", "src/shingo.luau"]
 
 [target]
 environment = "roblox"
+lib = "src/shingo.luau"
+build_files = ["src"]
 
 [indices]
 default = "https://github.com/pesde-pkg/index"
